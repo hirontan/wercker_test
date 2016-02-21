@@ -1,0 +1,6 @@
+box: boedy/wercker-php
+build:
+  steps:
+    - script:
+        name: phpunit
+        code: phpunit
